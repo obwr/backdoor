@@ -1,20 +1,50 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
+<div class="title">
+  Chapter One...
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.com/">Angular blog</a></h2>
-  </li>
-</ul>
+<form class=" form-horizontal">
+  <div class="container-fluid">
+    <div class="header row">
+      <h1 class="header__title  col-xs-12">Tell your story </h1>
+      <div class="header__pitch container">
+        <label class="col-sm-2 control-label" for="pitch">Pitch it:</label>
+        <div class="header__pitch col-sm-10">
+          <input class="form-control" placeholder=" Scientists can bounce messages from the future back to the present, but there's no guarantee they'll tell the truth..."
+            name="pitch" type="text">
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="container">
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Synopsis:</label>
+      <div class="col-sm-10">
+        <textarea rows="10" id="synopsis" class="form-control" name="synopsis" type="text" placeholder="Axiomatic is a collection of short stories solidly in the classical tradition of science fiction. While some of the stories are based on physics (and particularly quantum mechanics), I also draw on more recent work in molecular biology and computer science for inspiration. My stories are never pure technical gimmickry, either: the science is largely taken as given and it is the social, psychological and philosophical consequences which are explored. 
+Some of the stories which I find particularly memorable: 'The Moral Virologist' is a black comedy in which a fundamentalist molecular biologist builds a virus which really will kill all adulterers and homosexuals (except that it can't cope with incest between identical twins); in 'Appropriate Love' a woman carries her husbands brain in her womb while a new body is being grown for him; and in 'Seeing' a victim of brain damage has his 'point of view' shifted so he is looking down on himself from above (though what he actually sees stays the same)."></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Chapter one:</label>
+      <div class="col-sm-10">
+        <textarea rows="10" id="chapter" class="form-control" name="chapter" type="text" placeholder="I was six years old when my parents told me that there was a small, dark jewel inside my skull, learning to be me.
+
+Microscopic spiders had woven a fine golden web through my brain, so that the jewel's teacher could listen to the whisper of my thoughts. The jewel itself eavesdropped on my senses, and read the chemical messages carried in my bloodstream; it saw, heard, smelt, tasted and felt the world exactly as I did, while the teacher monitored its thoughts and compared them with my own. Whenever the jewel's thoughts were wrong, the teacher - faster than thought - rebuilt the jewel slightly, altering it this way and that, seeking out the changes that would make it's thoughts correct.
+
+Why? So that when I could no longer be me, the jewel could do it for me..."></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">How do I contact you?</label>
+      <div class="col-sm-10">
+        <input id="contact" class="form-control" name="contact" type="text" placeholder="cassandra@gmail.com">
+      </div>
+    </div>
+  <button class="btn btn-submit pull-right">Submit</button>
+  </div>
+
+</form>
+
+<div class="thanks">
+  Thanks! I'll be in touch.
+</div>
