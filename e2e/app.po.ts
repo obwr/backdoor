@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class BackdoorPage {
+export class ChpOnePage {
   navigateTo() {
     return browser.get('/');
   }

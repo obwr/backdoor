@@ -1,10 +1,10 @@
-import { BackdoorPage } from './app.po';
+import { ChpOnePage } from './app.po';
 
-describe('backdoor App', () => {
-  let page: BackdoorPage;
+describe('chpOne App', () => {
+  let page: ChpOnePage;
 
   beforeEach(() => {
-    page = new BackdoorPage();
+    page = new ChpOnePage();
   });
 
   it('should display welcome message', () => {
