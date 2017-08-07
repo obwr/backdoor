@@ -109,6 +109,9 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 call :ExecuteCmd ng serve
 IF !ERRORLEVEL! NEQ 0 goto error
 
+call :ExecuteCmd ".\node_modules\@angular\cli\bin\ng serve"
+if !ERRORLEVEL! NEQ 0 goto error
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 goto end
 
